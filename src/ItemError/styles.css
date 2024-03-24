@@ -1,0 +1,25 @@
+
+#error {
+    justify-content: center;
+    margin-top: 40px;
+    width: 50px; /* Ajusta el ancho de la imagen */
+    height: auto; /* Mantiene la proporción de la imagen */
+    animation: pulse 2s infinite; /* Añade esta línea */
+}
+
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.15); }
+    100% { transform: scale(1); }
+  }
+
+#errormessage {
+    margin-top: 20px;
+    font-size: 13px;
+    font-weight: normal;
+    color: #e05e5e;
+    text-align: center;
+    text-shadow: 0 0 1px silver;
+
+}
+  

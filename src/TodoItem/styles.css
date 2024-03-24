@@ -1,0 +1,75 @@
+
+.Todo-item-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%; /* Reduce el ancho para dejar un margen a los lados */
+    padding: 10px;
+    border: 3px solid rgb(122, 118, 118); /* Establece el borde a 1px y de color plateado */
+    transition: box-shadow 0.3s ease;
+    transition: border 0.3s ease;  /* Agrega una transición a la sombra *//* Agrega un borde alrededor de cada elemento de la lista */
+    border-radius: 30px;
+    margin: 10px auto; /* Agrega un margen alrededor de cada elemento de la lista */
+    flex-wrap: wrap; /* Hace que los elementos de la lista se envuelvan si no caben en una sola fila */
+}
+
+.Todo-item-container:hover {
+    box-shadow: 0 0 10px #1dbde1; /* Aplica una sombra azul metálica alrededor del campo de entrada */
+    border: 3px solid azure ;
+
+}
+
+
+.Todo-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    font-size: 13px;
+    font-weight: bold;
+    color: silver;
+
+}
+
+
+
+.icon {
+    width: 30px; /* Ajusta el ancho del span */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2px;
+    margin-right: 2px;
+
+}
+
+.icon img {
+    width: 33px; /* Ajusta el ancho de la imagen */
+    height: auto; /* Mantiene la proporción de la imagen */
+    transition: transform 0.5s ease; /* Añade una transición al transform */
+}
+
+.icon:hover img {
+    transform: scale(1.40); /* Aumenta el tamaño de la imagen en un 10% */
+}
+
+
+/* Cuando la tarea esta completada se trabaja la clase  aproved*/
+
+.Todo-item-container.approved {
+    border: 3px solid #20b773; /* Cambia el color de fondo del contenedor a verde */
+    box-shadow: 0 0 5px #04f589;
+}
+
+.Todo-item-container.approved p {
+    color: #1ad56b; /* Cambia el color del texto a blanco */
+    font-weight: bold; /* Hace que el texto sea negrita */
+    text-decoration: line-through;  /* Tacha el texto */
+    font-style: italic;
+}
+
+.Todo-item-container.approved:hover {
+    box-shadow: none; /* Restaura el color del borde al color original */
+    box-shadow: 0 0 5px #04f589;
+}

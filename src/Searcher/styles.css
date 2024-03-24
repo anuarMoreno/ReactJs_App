@@ -1,0 +1,22 @@
+.todo-searcher {
+    background-color: transparent;
+    color: silver;
+    font-family: "Autour One", system-ui;
+    font-weight: bold;
+    font-style: italic;
+    margin: auto; /* Centra el elemento en el espacio disponible */
+    width: 40%;
+    height: 30px; /* Reduce el tamaño del elemento a la mitad del ancho del contenedor */
+    text-align: center; /* Centra el texto */
+    border: 3px solid rgb(122, 118, 118); /* Establece el borde a 1px y de color plateado */
+    border-radius: 15px; /* Redondea las esquinas del elemento */
+    box-shadow: 0 0 5px silver; /* Aplica una sombra azul metálica alrededor del campo de entrada */
+    transition: box-shadow 0.3s ease;
+    transition: border 0.3s ease;  /* Agrega una transición a la sombra */
+}
+
+.todo-searcher:focus {
+    outline: none;  /* Elimina el borde azul que aparece al hacer clic en el elemento */ 
+    box-shadow: 0 0 10px #1dbde1; /* Aplica una sombra azul metálica alrededor del campo de entrada */
+    border: 3px solid #60b3c6;
+}

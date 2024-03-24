@@ -1,0 +1,23 @@
+#loading {
+    justify-content: center;
+    margin-top: 40px;
+    width: 50px; /* Ajusta el ancho de la imagen */
+    height: auto; /* Mantiene la proporción de la imagen */
+    animation: spin 1s cubic-bezier(.5, .05, .1, .3) infinite; /* Añade esta línea */
+}
+
+#loadingmessage {
+    margin-top: 20px;
+    font-size: 13px;
+    font-weight: bold;
+    color: #11abce;
+    text-align: center;
+    text-shadow: 0 0 1px silver;
+
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+

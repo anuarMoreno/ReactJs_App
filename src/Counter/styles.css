@@ -1,0 +1,21 @@
+
+#title {
+    font-size: 30px;
+    color: #01a4ea; /* Este es un tono de azul metálico */
+    font-weight: bold; /* Hace que el texto sea más grueso */
+    text-shadow: 1px 1px 2px silver, 2px 2px 2px silver; /* Agrega una sombra de texto plateada */
+    width: 90%;
+    overflow: auto;
+    width: 100%;
+
+  }
+#subtitle {
+  font-size: 20px;
+  color: silver;
+}
+
+.Todo-counters {
+    color:  #0092d0;
+
+  }
+

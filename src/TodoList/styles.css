@@ -1,0 +1,43 @@
+.Todo-list-container {
+    border: 3px solid #76abe3; /* Agrega un borde al contenedor */
+    border-radius: 20px;
+    box-shadow: 0 0 3px silver; /* Agrega una sombra alrededor del contenedor */
+    padding: 8px; /* Agrega un poco de espacio alrededor de la lista */
+    width: 90%;
+    height: 225px; /* Establece el ancho del contenedor al 90% del ancho de su contenedor padre */
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto; /* Centra el contenedor en su contenedor padre */
+    align-items: center;
+}
+
+.Todo-list-container-inner {
+    max-height: 225px; /* Establece la altura máxima del contenedor de la lista */
+    overflow-y: auto; /* Hace que aparezca una barra de desplazamiento cuando el contenido supera la altura máxima */
+    width: 100%; /* Asegura que el contenedor interno ocupe todo el ancho del contenedor externo */
+}
+
+
+.Todo-list {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Todo-list-container-inner::-webkit-scrollbar {
+    width: 6px; /* Ancho de la barra de desplazamiento */
+}
+
+.Todo-list-container-inner::-webkit-scrollbar-track {
+    background: #828080 ; /* Color de la pista de la barra de desplazamiento */
+    border-radius: 12px; /* Radio de la esquina de la pista de la barra de desplazamiento */
+}
+
+.Todo-list-container-inner::-webkit-scrollbar-thumb {
+    background-color: rgb(185, 214, 214); /* Color de la barra de desplazamiento */
+    border-radius: 20px; /* Radio de la esquina de la barra de desplazamiento */
+}

@@ -1,0 +1,96 @@
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid rgb(70, 70, 70); /* Borde gris alrededor del textarea */
+    box-shadow: 0 0 5px rgb(131, 131, 131);
+    padding: 20px;
+    border-radius: 10px; /* Bordes redondeados */
+    background-color: rgba(255, 255, 255, 0.777); /* Fondo blanco para el formulario */
+    width: 20%;
+    
+
+}
+
+label {
+    font-size: 15px;
+    margin-bottom: 10px;
+    font-style: bolder;
+    color: rgba(0, 0, 0, 0.9);
+    text-shadow: 5px 5px 10px #ed9ae5;
+}
+
+#textarea {
+    border: 2px solid rgb(113, 113, 113); /* Borde gris alrededor del textarea */
+    box-shadow: 0 0 18px rgb(107, 105, 105); /* Sombra gris alrededor del textarea */
+    border-radius: 4px;
+    width: 90%;
+    height: 70px;
+    margin: 10px;
+    resize: none; /* No se puede redimensionar el textarea */
+    text-align: center;
+    font-family: 'Autour One';
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.9);
+    background: transparent;
+    transition: box-shadow 0.3s; 
+}
+
+#textarea:focus {
+    outline: none;
+    box-shadow: 0 0 18px #8774f4;
+}
+
+
+#textarea::-webkit-scrollbar {
+    width: 8px; /* Ancho de la barra de desplazamiento */
+}
+
+#textarea::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Color de fondo de la pista de la barra de desplazamiento */
+}
+
+#textarea::-webkit-scrollbar-thumb {
+    background: #888; /* Color de fondo del pulgar de la barra de desplazamiento */
+    border-radius: 4px; /* Bordes redondeados del pulgar de la barra de desplazamiento */
+}
+
+#textarea::-webkit-scrollbar-thumb:hover {
+    background: #555; /* Color de fondo del pulgar de la barra de desplazamiento cuando se pasa el ratón por encima */
+}
+
+
+.itemform-buttons-container{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    width: 100%; /* Cambiado de max-width a width */
+}
+
+
+
+.itemform-cancel--button {
+    background-color: rgba(157, 156, 156, 0.5); /* Fondo gris semi-transparente para el botón de cancelar */  
+    margin-right: 17px;
+    padding: 10px 20px; /* Aumenta el padding para hacer el botón más grande */
+    border: transparent;
+    box-shadow: 0 0 5px rgba(197, 196, 196, 0.5);
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.9);
+    font-size: 12px; /* Aumenta el tamaño del texto */
+    font-style: bolder;
+    font-family: 'Autour One';
+
+}
+
+
+.itemform-add--button {
+    background: linear-gradient(to right, #ed9ae5, #6064f8);
+    padding: 10px 20px;
+    border:transparent;
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.9);
+    font-size: 12px;
+    font-style: bolder;
+    font-family: 'Autour One';
+}
