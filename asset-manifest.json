@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/ReactJs_App/static/css/main.61301e5e.css",
+    "main.js": "/ReactJs_App/static/js/main.5893db90.js",
+    "static/media/background.jpeg": "/ReactJs_App/static/media/background.43fc528529fc778a5fba.jpeg",
+    "index.html": "/ReactJs_App/index.html",
+    "main.61301e5e.css.map": "/ReactJs_App/static/css/main.61301e5e.css.map",
+    "main.5893db90.js.map": "/ReactJs_App/static/js/main.5893db90.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.61301e5e.css",
+    "static/js/main.5893db90.js"
+  ]
+}
