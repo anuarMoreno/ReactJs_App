@@ -1,12 +1,15 @@
-# Repositorio base del Curso de Introducción a React.js en Platzi
+# ToDo List con ReactJs
 
-¡Hola, Platzinauta!
+¡Hola!, este es un proyecto de Gestor de Tareas creado con ReactJs. Utiliza el almacenamiento local del navegador para guardar los pendientes, lo que te permite experimentar con la persistencia de datos en el lado del cliente. Fue construido bajo algunos conceptos como el estado de los componentes, el ciclo de vida de los componentes y el manejo de eventos.
 
-En este repositorio encontrarás el código de todas las clases del [Curso de Introducción a React.js](https://platzi.com/reactjs). Para empezar solo debes clonar este repositorio (`git clone`), instalar sus dependencias (`npm i`) y ejecutar la aplicación (`npm start`).
+Este proyecto se despliega en GitHub Pages. Puedes ver la versión en vivo aquí: https://anuarmoreno.github.io/ReactJs_App/
 
-La rama principal contiene el código con el que eempezamos el curso. En las demás ramas encontrarás el código de las siguientes clases y finalmente el deploy de la aplicación.
+## Características
 
-¡Mucha suerte aprendiendo React! #NuncaParesDeAprender
+- Crear, editar y eliminar tareas
+- Marcar tareas como completadas
+- Las tareas se almacenan en el almacenamiento local del navegador
+
 
 ## Getting Started with Create React App
 
